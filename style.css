@@ -58,6 +58,12 @@ align-content: center; */
     }
 }
 
+@media (max-width: 762px){
+    .formLogin{
+        border-radius: 20px;
+    }
+}
+
 .areaLogin img {
     width: 420px;
 }
@@ -147,20 +153,17 @@ align-content: center; */
 @media (max-width: 992px){
     .imghp{
         width: auto;
-    }
-}
-
-@media (Max-width: 850px){
-    .imghp{
         max-width: 320px;
     }
 }
 
-@media (Max-width: 850px){
+@media (max-width: 762px){
     .imghp{
         display: none
     }
 }
+
+
 
 .grid > div{
     /* align-items: center;
