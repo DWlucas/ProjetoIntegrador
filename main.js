@@ -12,5 +12,5 @@ icon.addEventListener('click', function() {
 	} else {
 		icon.src = 'img/eye-on.png';
 		input.type = 'password';
-	}
+	} 
 });
