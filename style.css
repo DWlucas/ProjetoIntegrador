@@ -28,6 +28,8 @@ align-content: center; */
     gap: 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    min-width: 250px;
+    min-height: 300px;
 }
 
 .areaLogin img {
@@ -113,13 +115,11 @@ align-content: center; */
     margin: 0 auto;
     grid-gap: 20px;
     max-width: 640px;
-    min-height: 250px;
-    min-width: 150px;
 }
 
 .imghp {
     max-width: 320px;
-    height: 376px;
+    height: 380px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;
