@@ -9,24 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <section class="grid">
-            <div class="centerpage">
-                <div class="page">
-                    <form action="home.php" class="formLogin" method="POST">
-                        <h1>Login</h1>
-                        <label for="text">Usuário</label>
-                        <input id="user" type="text" placeholder="Digite seu Usuário" autofocus="true" />
-                        <label for="password">Senha</label>
-                        <div class="divPass">
-                            <input type="password" id="password" name="password" placeholder="Digite sua Senha"> 
-                            <img class="olho" src="img/eye-on.png" alt="">
-                        </div>
-                        <input type="submit" value="ENTRAR" class="btn">
-                    </form>
-                    <img class="imghp" src="img/hospital.jpg" alt="imagem do hospital">
-                </div>
+        <div class="centerpage">
+            <div class="page">
+                <form action="login.php" class="formLogin" method="POST">
+                    <h1>Login</h1>
+                    <label for="text">Usuário</label>
+                    <input id="usuario" type="text" placeholder="Digite seu Usuário" autofocus="true" />
+                    <label for="password">Senha</label>
+                    <div class="divPass">
+                        <input type="password" id="senha" name="password" placeholder="Digite sua Senha"> 
+                        <img class="olho" src="img/eye-on.png" alt="">
+                    </div>
+                    <input type="submit" value="ENTRAR" class="btn">
+                </form>
+                <img class="imghp" src="img/hospital.jpg" alt="imagem do hospital">
             </div>
-        </section>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>

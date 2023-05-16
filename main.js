@@ -1,6 +1,6 @@
 //Funcao mostrar senha 
-let container = document.querySelector('div');
-let input = document.querySelector('password');
+let container = document.querySelector('.divPass');
+let input = document.querySelector('#senha');
 let icon = document.querySelector('.olho');
 
 icon.addEventListener('click', function() {
