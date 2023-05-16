@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-light bg-ligth">
         <div class="container-fluid">
-            <a class="navbar-brand">Sistema X</a>
+            <a class="navbar-brand">Intranet Unimed Chapeco</a>
             <?php
                 print "Olá, " . $_SESSION["nome"];
                 print "<a href='logout.php' class='btn btn-danger'>Sair</a>";
