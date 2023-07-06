@@ -24,7 +24,7 @@
             <div name="usuario" id="usuario" class="usuario">
             <h1 name="nomeUsuario" id="nomeusuario" class="headerNomeUsuario">
                 <?php
-                    print $_SESSION["nome"];
+                    print $_SESSION["nome"] ." ". $_SESSION["sobrenome"];
                 ?>
             </h1>
             <hr class="linhaNomeUsuario">
