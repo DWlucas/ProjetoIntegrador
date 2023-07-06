@@ -10,9 +10,9 @@
     $usuario = $_POST["usuario"];
     $senha = $_POST["senha"];
 
-    $sql = "SELECT * FROM   usuarios
-            WHERE usuario = '{$usuario}'
-            AND senha = '{$senha}'";
+    $sql = "SELECT * FROM USUARIO
+            WHERE USUARIO = '{$usuario}'
+            AND SENHA = '{$senha}'";
 
     $res = $conn->query($sql) or die($conn->error);
 
@@ -22,8 +22,7 @@
 
     if($qtd > 0){
         $_SESSION["usuario"] = $usuario;
-        $_SESSION["nome"] = $row->nome;
-        $_SESSION["tipo"] = $row->tipo;
+        $_SESSION["nome"] = $row->NOME_COLABORADOR;
         print "<script>location.href='intranet.php';</script>";
     }else{
         print "<script>alert('Usuário e/ou senha incorreto(s)');</script>";
