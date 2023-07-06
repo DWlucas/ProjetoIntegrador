@@ -24,7 +24,7 @@
         $_SESSION["usuario"] = $usuario;
         $_SESSION["nome"] = $row->nome;
         $_SESSION["tipo"] = $row->tipo;
-        print "<script>location.href='dashboard.php';</script>";
+        print "<script>location.href='intranet.php';</script>";
     }else{
         print "<script>alert('Usuário e/ou senha incorreto(s)');</script>";
         print "<script>location.href='index.php';</script>";
