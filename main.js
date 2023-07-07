@@ -15,3 +15,10 @@ icon.addEventListener('click', function() {
 		input.type = 'password';
 	} 
 });
+function showModal() {
+    document.getElementById('modal').style.display = 'block';
+}
+
+function hideModal() {
+    document.getElementById('modal').style.display = 'none';
+}

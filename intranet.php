@@ -87,7 +87,12 @@
 <!--navegação-->
                 <nav name="navegacao" id="" class="navegacao">
                     <ul class="nav-list">
-                        <li id="nav"><a href="#">Acessiblidade</a></li>
+                        <li id="nav"><a href="#" onmouseover="showModal()" onmouseout="hideModal()">Acessibilidade</a>
+                            <div id="modal" class="modal">
+                                <h2>Modal com JavaScript</h2>
+                                <p>Este é um exemplo de modal criado com JavaScript.</p>
+                            </div>
+                        </li>
                         <hr>
                         <li id="nav" class="pgatual"><a href="intranet.php" class="pg">Intranet</a></li>
                         <hr>
@@ -268,6 +273,6 @@
         <p name="2023copyright">2023 Copyright - Todos os direitos reservados.</p>
     </section>
 </footer> 
-
+<script src="main.js"></script>
 </body>
 </html>
