@@ -300,6 +300,7 @@
         <p name="2023copyright">2023 Copyright - Todos os direitos reservados.</p>
     </section>
 </footer>
+<script src="main.js"></script>
 </body>
 </html>
 
