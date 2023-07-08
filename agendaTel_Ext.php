@@ -18,17 +18,18 @@
 <header>
     <div>
         <a href="https://www.unimed.coop.br/site/web/chapeco" title="unimed"><img name="" id="" class="headerImgLogo" src="img/logo_unimed.png" alt=""></a>
-        <input name="barraDePesquisa" id="barradepesquisa" class="headerBarraDePesquisa" placeholder="🔍Faça a sua Pesquisa..." type="search">
+        <input type="text" name="barraDePesquisa" id="search-input" class="headerBarraDePesquisa" placeholder="🔍Faça a sua Pesquisa..." type="search">
+        <button class="searchbtn" onclick="searchText()">Pesquisar</button>
         <div name="usuario" id="usuario" class="usuario">
             <h1 name="nomeUsuario" id="nomeusuario" class="headerNomeUsuario">
                 <?php
-                    print $_SESSION["nome"] ." ". $_SESSION["sobrenome"];
+                    print $_SESSION["nome"];
                 ?>
             </h1>
             <hr class="linhaNomeUsuario">
             <img draggable="false" name="imgUsuario" id="imgusuario" class="headerImgUsuario" src="img/perfil.png" alt="">
                 <?php
-                    print "<a href='logout.php' class='btn-danger'>Sair</a>";
+                    print "<button class='btnSair'><a href='logout.php'>Sair</a></button>";
                 ?>
         </div>   
     </div> 

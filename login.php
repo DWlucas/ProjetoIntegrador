@@ -23,7 +23,6 @@
     if($qtd > 0){
         $_SESSION["usuario"] = $usuario;
         $_SESSION["nome"] = $row->NOME_COLABORADOR;
-        $_SESSION["sobrenome"] = $row->SOBRENOME_COLABORADOR;
         print "<script>location.href='intranet.php';</script>";
     }else{
         print "<script>alert('Usuário e/ou senha incorreto(s)');</script>";

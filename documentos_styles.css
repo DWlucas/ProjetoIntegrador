@@ -322,3 +322,20 @@ footer{
     display: none;
     margin-top: 10px;
 }
+.searched {
+    color: #000000;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 13, 0.712);
+  }
+.searchbtn{
+    background-color: #06532d;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnSair{
+    background-color: #06532d;
+    padding: 10px;
+    border-radius: 10px;
+}
