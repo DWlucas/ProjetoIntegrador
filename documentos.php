@@ -62,9 +62,177 @@
     </section>
 
 <!--Documentos-->
-    <section name="boxDocumentos" id="" class="boxCorpoDocumentos">
+    <!-- <section name="boxDocumentos" id="" class="boxCorpoDocumentos"> -->
+        
+    <section id="sectionDoc">
+        <div class="containerDoc">
+            <div class="div-estilizada" onclick="toggleLinks(1)">Documentos para Consulta</div>
+            <div id="links1" class="links">
+            <ul class="uldocsConsulta">
+                <li><a href="/intranet/index/download?arquivo=PLI.GOV.0005-02_Politica_de_Seguranca_da_Informacao_e_Privacidade_de_Dados_Pessoais.pdf" title="Política de Segurança da Informação e Privacidade de Dados Pessoais" target="_new">Política de Segurança da Informação e Privacidade de Dados Pessoais</a></li>
+                
+                <li><a href="">CBHPM</a></li>
+                
+                <li><a href="">Descrição de Lançamentos do Ponto no Painel</a></li>
 
-        <div name="documentosConsultas" id="aaaaa" class="boxDocumentos">
+                <li><a href="">Guia Médico</a></li>
+
+                <li><a href="">Gratificação Vale Alimentação</a></li>
+
+                <li><a href="">Lista de Presença - Padrão Unimed</a></li>
+
+                <li><a href="">Lista Exames com DUT</a></li>
+
+                <li><a href="">Instrução Técnica Localização de documentos padronizados</a></li>
+
+                <li><a href="">Manual de gestão e preparação para emergências e desastres</a></li>
+
+                <li><a href="">Norma interna nº 001_ 2014 - Cursos (alterada em 09.06.2021)</a></li>
+
+                <li><a href="">Plano de Cargos e Salários</a></li>
+
+                <li><a href="">Política de Comunicação</a></li>
+
+                <li><a href="">Política de Gestão de Pessoas</a></li>
+
+                <li><a href="">Politica de Medida Disciplinar</a></li>
+
+                <li><a href="">Política de Ouvidoria</a></li>
+
+                <li><a href="">Política de Recrutamento e Seleção</a></li>
+
+                <li><a href="">Política de Saúde Integral do colaborador</a></li>
+
+                <li><a href="">Política institucional para contratação e qualificação de fornecedores</a></li>
+
+                <li><a href="">PPR 2023</a></li>
+
+                <li><a href="">Procedimentos de resposta para emergências internas</a></li>
+
+                <li><a href="">Programa Ciclos de uma Trajetória</a></li>
+
+                <li><a href="">Programa de Desenvolvimento de Pessoas da Unimed Chapecó</a></li>
+
+                <li><a href="">Programa de Integração Unimed Chapecó</a></li>
+
+                <li><a href="">Programa de Sucessão da Unimed Chapecó</a></li>
+
+                <li><a href="">Relatório de Sustentabilidade 2020 e 2021 GRI</a></li>
+
+                <li><a href="">Regulamento Bolsa de Estudos</a></li>
+
+                <li><a href="">Regulamento Plano de Saúde</a></li>
+
+                <li><a href="">TER.GEA.0004-01 Obrigatoriedade do uso de máscara</a></li>
+
+                <li><a href="">Tutorial de Acesso ao RUBIWEB</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="containerDoc">
+        <div class="div-estilizada" onclick="toggleLinks(2)">Programas de Gerenciamento Medicina Preventiva</div>
+        <div id="links2" class="links">
+            <p>Complexos</p><br>
+            <ul>
+                <li><a href="">Política PGCC/SAD</a></li>
+                <li><a href="">Encaminhamento Médico/Multi Hospital PGCC</a></li>
+                <li><a href="">Encaminhamento Médico Consultório PGCC</a></li>
+                <li><a href="">Indicação ao PGCC</a></li>
+            </ul>
+                <br><p>Crônicos</p><br>
+            <ul>
+                <li><a href="">Manual PGS - Gerenciamento de Saúde</a></li>
+                <li><a href="">Encaminhamento médico PGDC</a></li>
+                <li><a href="">Indicação ao PGDC</a></li>
+                <li><a href="">Autoindicação ao PGDC</a></li>
+            </ul>  
+        </div>
+        </div>
+        <div class="containerDoc">
+        <div class="div-estilizada" onclick="toggleLinks(3)">Programa de Melhoria da Qualidade - PMQ</div>
+        <div id="links3" class="links">
+            <ul>
+                <li><a href="">Resultado Acreditação da Operadora do Plano de Saúde - RN 507</a></li>
+                <li><a href="">Resultado da 1ª Supervisão da Certificação em APS - RN 506</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="containerDoc">
+            <div class="div-estilizada" onclick="toggleLinks(4)">Planejamento Estratégico</div>
+            <div id="links4" class="links">
+                <ul>
+                    <li><a href="">Cadeia de valor - Hospital Unimed Chapecó</a></li>
+                    <li><a href="">Cadeia de valor - Operadora plano de saúde</a></li>
+                    <li><a href="">Divulgação Identidade Organizacional</a></li>
+                    <li><a href="">Identidade organizacional</a></li>
+                    <li><a href="">Mapa estratégico 2023 - 2024</a></li>
+                    <li><a href="">Planejamento estratégico</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="div-estilizada" onclick="toggleLinks(5)">Captações Instituto Unimed</div>
+            <div id="links5" class="links">
+                <ul>
+                    <li><a href="">Vídeo Instituto Unimed</a></li>
+                    <li><a href="">Vídeo Captação Movimento Saúde e Ação</a></li>
+                    <li><a href="">Slide Movimento Saúde e Ação</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="div-estilizada" onclick="toggleLinks(6)">Núcleo de Governança Corporativa (NGC)</div>
+            <div id="links6" class="links">
+                <ul>
+                    <li><a href="">Política de Segurança da Informação e Privacidade de Dados Pessoais</a></li>
+                    <li><a href="">Código de Ética e Conduta</a></li>
+                    <li><a href="">Código de Ética e Conduta aos Fornecedores e Prestadores de Serviço</a></li>
+                    <li><a href="">Termo de Adesão ao Código de Ética e Conduta aos Fornecedores e Prestadores de Serviço</a></li>
+                    <li><a href="">Programa de Governança em Privacidade e Segurança</a></li>
+                    <li><a href="">Diretrizes para classificação e acesso das informações da instituição</a></li>
+                    <li><a href="">Manual de Controles de Segurança da Informação e de Privacidade de dados Pessoais</a></li>
+                    <li><a href="">Programa de Integridade</a></li>
+                    <li><a href="">Cartilha Gestão de Riscos Corporativos</a></li>
+                    <li><a href="">Cartilha LGPD Unimed Chapecó</a></li>
+                    <li><a href="">Canal de Denúncias</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="div-estilizada" onclick="toggleLinks(7)">Unimed Personal (NAPS)</div>
+            <div id="links7" class="links">
+                <ul>
+                    <li><a href="">Cartilha Unimed Personal</a></li>
+                    <li><a href="">Referência e Contra referência</a></li>
+                    <li><a href="">ROL DE PROCEDIMENTOS SAÚDE BUCAL UNIMED PERSONAL</a></li>
+                    <li><a href="">News Odonto Unimed Personal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="div-estilizada" onclick="toggleLinks(8)">COMEDI</div>
+            <div id="links8" class="links">
+                <ul>
+                    <li><a href="">Solicitação de padronização de Medicamentos</a></li>
+                    <li><a href="">Solicitação de despadronização de Medicamentos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="div-estilizada" onclick="toggleLinks(9)">Tecnologia da Informação</div>
+            <div id="links9" class="links">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+        </div>
+</section>
+
+        <!-- <div name="documentosConsultas" id="aaaaa" class="boxDocumentos">
             <div name="" id="" class="conteudoBoxDocumentos">
                 <details>
                     <summary class="docsConsulta">
@@ -274,9 +442,9 @@
                
                 </details>
             </div>
-        </div>
+        </div> -->
         
-    </section>
+    <!-- </section> -->
 
 </div>
 

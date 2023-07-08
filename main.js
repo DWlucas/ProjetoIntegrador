@@ -22,3 +22,13 @@ function showModal() {
 function hideModal() {
     document.getElementById('modal').style.display = 'none';
 }
+function toggleLinks(divNumber) {
+	var linksDivs = document.getElementsByClassName('links');
+	for (var i = 0; i < linksDivs.length; i++) {
+	  if (i + 1 === divNumber) {
+		linksDivs[i].style.display = (linksDivs[i].style.display === 'block') ? 'none' : 'block';
+	  } else {
+		linksDivs[i].style.display = 'none';
+	  }
+	}
+  }

@@ -211,14 +211,6 @@ div nav ul hr{
     border: 2px solid rgb(16, 49, 7); 
 }
 
-
-
-
-
-
-
-
-
 /*-----===FOOTER===-----*/
 footer{
     width: 100%;
@@ -311,4 +303,22 @@ footer{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.containerDoc {
+    margin-bottom: 10px;
+}
+  
+.div-estilizada {
+    background-color: green;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  
+.links {
+    background-color: rgb(45, 134, 28);
+    padding: 40px;
+    border-radius: 20px;
+    display: none;
+    margin-top: 10px;
 }
