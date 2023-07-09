@@ -593,3 +593,8 @@ footer{
     padding: 10px;
     border-radius: 10px;
 }
+p#clock{
+    padding: 3px;
+    text-align: center;
+    color: #000000;
+}

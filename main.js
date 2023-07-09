@@ -102,3 +102,33 @@ function searchText() {
 	referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
   }
   
+//Relógio acima do footer
+function updateClock() {
+    var clockElement = document.getElementById('clock');
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+
+    // Formatação com zero à esquerda, se necessário
+    if (hours < 10) {
+      hours = '0' + hours;
+    }
+    if (minutes < 10) {
+      minutes = '0' + minutes;
+    }
+    if (seconds < 10) {
+      seconds = '0' + seconds;
+    }
+
+    var time = hours + ':' + minutes + ':' + seconds;
+
+    // Atualiza a parte do relógio com o horário atualizado
+    clockElement.innerHTML = date.toLocaleDateString('pt-BR') + '        ' + time;
+  }
+
+  // Chama a função updateClock inicialmente para evitar o atraso de 1 segundo
+  updateClock();
+
+  // Atualiza o relógio a cada segundo
+  setInterval(updateClock, 1000);

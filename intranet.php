@@ -153,8 +153,17 @@
                     </a>
                 </main>
 
-<!--data-->
-                <div name="data" class="data"></div>
+        <!--data--> 
+            <div name="data" class="data">
+                <p id="clock">
+                    <?php
+                        date_default_timezone_set('America/Sao_Paulo');
+                        $date = date('d/m/Y');
+                        $time = date('H:i:s');
+                        print $date . '  ' . $time;
+                    ?>
+                </p>
+            </div>
         </section>
     </section>
 
