@@ -1,21 +1,3 @@
-//Funcao mostrar senha 
-let container = document.querySelector('.divPass');
-let input = document.querySelector('#senha');
-let icon = document.querySelector('.olho');
-
-icon.addEventListener('click', function() {
-	container.classList.toggle('visible');
-	if(container.classList.contains('visible')) {
-
-		icon.src = 'img/eye-off.png';
-		input.type = 'text';
-
-	} else {
-		icon.src = 'img/eye-on.png';
-		input.type = 'password';
-	} 
-});
-
 //Função dos Documentos
 function showModal() {
     document.getElementById('modal').style.display = 'block';
@@ -124,7 +106,7 @@ function updateClock() {
     var time = hours + ':' + minutes + ':' + seconds;
 
     // Atualiza a parte do relógio com o horário atualizado
-    clockElement.innerHTML = date.toLocaleDateString('pt-BR') + '        ' + time;
+    clockElement.innerHTML = date.toLocaleDateString('pt-BR') + ' ' + time;
   }
 
   // Chama a função updateClock inicialmente para evitar o atraso de 1 segundo
