@@ -102,7 +102,7 @@ header div{
 /*-----===CONTEUDO===-----*/
 /*--container--*/
 .conteudo{
-    width: 1020px;
+    width: 1220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,7 +161,7 @@ div nav ul hr{
 }
 /*-----===HEADER DOCUMENTOS===-----*/
 .boxHeaderDocumentos{
-    width: 1020px;
+    width: 1220px;
     height: 40px;
     background-color: #0b8649;
     border-radius: 7px;
@@ -204,7 +204,6 @@ div nav ul hr{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    cursor: help;
 }
 
 .div-estilizada{
@@ -233,7 +232,7 @@ div nav ul hr{
     font-size: 13px;
 }
 .links ul li a:hover{
-    color: #218321;
+    background-color: #8dcf6a;
 
 }
 
@@ -465,9 +464,5 @@ footer{
     color: white;
 }
 .btnSair a:hover{
-    border: 1px solid black;
     background-color: #22ca54;
-    scale: 1.1;
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
 }

@@ -160,7 +160,7 @@ header div{
 }
 .blocosvpn:hover{
     width: 100%;
-    background-image:linear-gradient(to right, #76b852, #8DC26F);
+    background-image:linear-gradient(to right, #76b852, #76b852);
     transition: all .3s ease-in-out;
 }
 .blocossis{
@@ -177,7 +177,7 @@ header div{
 }
 .blocossis:hover{
     width: 100%;
-    background-image:linear-gradient(to right, #76b852, #8DC26F);
+    background-image:linear-gradient(to right, #76b852, #76b852);
 }
 .blocossis a{
     color: #E6E6E6;
@@ -225,7 +225,7 @@ li#nav {
     gap: 3px;
 }
 nav ul li a:hover {
-    color: #1fcc00;
+    color: #76b852;
     transition: all .4s ease-in-out;
    
 }
@@ -289,12 +289,6 @@ section nav ul hr{
     height: 120px;
 }
 
-.boxPainelDeGestaoSenior:hover{
-
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
-}
-
 
 .boxSistemaDeGestao{
     width: 220px;
@@ -314,11 +308,6 @@ section nav ul hr{
     height: 120px;
 }
 
-.boxSistemaDeGestao:hover{
-
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
-}
 
 .boxIntratarefas{
     width: 220px;
@@ -336,11 +325,6 @@ section nav ul hr{
 .boxIntratarefas img{
     width: 120px;
     height: 120px;
-}
-.boxIntratarefas:hover{
-
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
 }
 
 .boxWebMail{
@@ -360,11 +344,7 @@ section nav ul hr{
     width: 120px;
     height: 120px;
 }
-.boxWebMail:hover{
 
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
-}
 .boxBlip{
     width: 220px;
     height: 170px;
@@ -382,11 +362,7 @@ section nav ul hr{
     width: 120px;
     height: 120px;
 }
-.boxBlip:hover{
 
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
-}
 .boxNutricao{
     width: 220px;
     height: 170px;
@@ -404,11 +380,7 @@ section nav ul hr{
     width: 120px;
     height: 120px;
 }
-.boxNutricao:hover{
 
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
-}
 .principais div a {
     font-size: 14px;
     display: flex;
@@ -769,11 +741,7 @@ footer{
     font-weight: bold;
 }
 .btnSair a:hover{
-    border: 1px solid black;
-    background-color: #1cac47;
-    scale: 1.1;
-    transition: transform 1s;
-    transform: translateX(0) scale(1.1);
+    background-color: #10924f;
 }
 
 

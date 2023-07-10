@@ -32,14 +32,17 @@
     margin-left: 30px;
 }
 .voltarIntranet a{
+    height: 40px;
     width: 160px;
-    border-radius: 10px;
+
     background-color: #107643;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
     gap: 7px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
 }
@@ -220,6 +223,12 @@ footer{
     text-decoration: none;
     list-style: none; 
 }
+
+.txtLocalizacao a{
+    text-decoration: none;
+    list-style: none;
+}
+
 .boxContatos{
     display: flex;
     flex-direction: column;

@@ -11,7 +11,7 @@
 <body>
     <section name="aniversariantesHeader" id="" class="aniversariantesHeader">
         <div name="voltarIntranet" id="" class="voltarIntranet">
-            <a href="intranet.php"><img src="img/iconretornarintranet.png" alt="" class="imgVoltarIntranet"><p>Voltar ao Intranet</p></a>
+            <a href="intranet.php"><img src="img/voltar.png" alt="" class="imgVoltarIntranet"><p>Voltar ao Intranet</p></a>
         </div>
     </section>
 <!-- =================================================================================================== -->
