@@ -17,42 +17,98 @@
 
 <body>
 <!--HEADER-->
-    <header>
+<header>
         <div>
-            <a href="https://www.unimed.coop.br/site/web/chapeco" title="unimed"><img draggable="false" name="" id="" class="headerImgLogo" src="img/logo_unimed.png" alt=""></a>
-            <input type="text" name="barraDePesquisa" id="search-input" class="headerBarraDePesquisa" placeholder="🔍Faça a sua Pesquisa..." type="search">
-            <button class="searchbtn" onclick="searchText()">Pesquisar</button>
+            <a href="https://www.unimed.coop.br/site/web/chapeco"><img draggable="false" name="" id="" class="headerImgLogo" src="img/logo_unimed.png" alt=""></a>
+
+        
+            <div class="form">
+                <input type="text" name="barraDePesquisa" id="search-input" class="headerBarraDePesquisa" accesskey="p" placeholder="🔍Faça a sua Pesquisa..." type="search">
+                <button class="searchbtn" onclick="searchText()">Pesquisar</button>
+            </div>
+            
             <div name="usuario" id="usuario" class="usuario">
                 <h1 name="nomeUsuario" id="nomeusuario" class="headerNomeUsuario">
                     <?php
                         print $_SESSION["nome"];
                     ?>
                 </h1>
-                <hr class="linhaNomeUsuario">
+
                 <img draggable="false" name="imgUsuario" id="imgusuario" class="headerImgUsuario" src="img/perfil.png" alt="">
-                    <?php
-                        print "<button class='btnSair'><a href='logout.php'>Sair</a></button>";
-                    ?>
-            </div>  
+
+                <?php
+                    print "<button accesskey='s' class='btnSair'><a href='logout.php'>Sair</a></button>";
+                ?>
+            </div>
+
+            
         </div> 
-    </header>
+   </header>
 <!--CONTEUDO-->
 <div name="conteudo" id="conteudo" class="conteudo">
 <!--navegação-->
     <nav name="navegacao" id="" class="navegacao">
         <ul class="nav-list">
-            <li id="nav"><a href="#" onmouseover="showModal()" onmouseout="hideModal()">Acessibilidade</a>
-                <div id="modal" class="modal">
-                    <h2>Modal com JavaScript</h2>
-                    <p>Este é um exemplo de modal criado com JavaScript.</p>
-                </div>
+            <li id="nav"><a accesskey="a" href="#" onmouseover="showModal()" onmouseout="hideModal()">Acessibilidade</a>
+            <div id="modal" class="modal">
+                                <div name="internoModel" class="internoModel">
+                                    <section name="infoAcessibilidade" class="infoAcessibilidade">
+                                        <div name="txtAcessibilidade" class="txtAcessibilidade">
+                                            <p>
+                                            Para aumentar ou diminuir a visualização do conteúdo, segure a tecla "ctrl" e pressione + ou - no seu teclado.
+                                            </p>
+                                        </div>
+                                        <hr class="divisaoInfoAcessibilidade">
+                                        <div name="txtcomoUsar" class="txtcomoUsar">
+                                            <h3>
+                                            Se preferir, use as teclas de atalho (acesskeys) para facilitar sua navegação:
+                                            </h3>
+                                            <br>
+                                            <p>
+                                            No Internet Explorer segure "ALT" mais a tecla desejada; Em outros navegadores, segure "ALT + SHIFT" e a tecla correspondente.
+                                            </p>
+                                        </div>
+                                    </section>
+                                    <hr class="divisaoAcessibilidade">
+                                    <section name="boxAtalhos" class="boxAtalhos">
+                                        <div name="linha1Acessibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">T</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">TOPO</p>
+                                        </div>
+                                        <div name="linha2Assecibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">S</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">SAIR</p>
+                                        </div>
+                                        <div name="linha3Assecibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">A</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">ACESSIBILIDADE</p>
+                                        </div>
+                                        <div name="linha4Assecibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">P</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">PESQUISAR</p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
             </li>
             <hr>
             <li id="nav"><a href="intranet.php" class="pg">Intranet</a></li>
             <hr>
             <li id="nav"><a href="agendaTel_Int.php">Agenda Telefônica</a></li>
             <hr>
-            <li id="nav" class="pgatual"><a href="siglario_Sig.php">Siglário</a></li>
+            <li id="nav" class="pgatual"><a accesskey="t" href="siglario_Sig.php">Siglário</a></li>
             <hr>
             <li id="nav"><a href="documentos.php">Documentos</a></li>
         </ul>
@@ -95,83 +151,100 @@
          <section name="linha1" id="" class="linhas">
             <div name="itemsSiglario" id="" class="itemsSiglario">TDAH</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">A coisa que o lucas tem</div>
+            <div name="descrição" id="" class="descrição">Transtorno do déficit de atenção com hiperatividade</div>
             <hr class="divisaoSiglario">
             <div name="usar" id="" class="usar">SIM</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">2</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">3</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">4</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">5</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">6</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">7</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">8</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">9</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
          <section name="linha1" id="" class="linhas">
-            <div name="itemsSiglario" id="" class="itemsSiglario">10</div>
+            <div name="itemsSiglario" id="" class="itemsSiglario">sentença</div>
             <hr class="divisaoSiglario">
-            <div name="descrição" id="" class="descrição">aaaaaa</div>
+            <div name="descrição" id="" class="descrição">descrição</div>
             <hr class="divisaoSiglario">
-            <div name="usar" id="" class="usar">aaaaaa</div>
+            <div name="usar" id="" class="usar">NÃO</div>
          </section>
 
+    </section>
+
+
+    <section name="boxPaginasAgenda" id="" class="boxPaginasAgenda">
+            <input value="" title="pgEsquerda" name="botaoPassarPgEsquerda" id="" class="botaoPassarPgEsquerda" type="button" placeholder="oi" >
+            <hr class="divisaoPaginacao">
+            <div name="pg1" id="" class="paginasAgendaAtual">1</div>
+            <hr class="divisaoPaginacao">
+            <div name="pg2" id="" class="paginasAgenda">2</div>
+            <hr class="divisaoPaginacao">
+            <div name="pg3" id="" class="paginasAgenda">3</div>
+            <hr class="divisaoPaginacao">
+            <div name="pg4" id="" class="paginasAgenda">4</div>
+            <hr class="divisaoPaginacao">
+            <div name="pg5" id="" class="paginasAgenda">5</div>
+            <hr class="divisaoPaginacao">
+            <input value="" title="pgDireita" name="botaoPassarPgDireita" id="" class="botaoPassarPgDireita" type="button" placeholder="d">
     </section>
 
 </div>

@@ -21,23 +21,29 @@
     <header>
         <div>
             <a href="https://www.unimed.coop.br/site/web/chapeco"><img draggable="false" name="" id="" class="headerImgLogo" src="img/logo_unimed.png" alt=""></a>
-            <input type="text" name="barraDePesquisa" id="search-input" class="headerBarraDePesquisa" placeholder="🔍Faça a sua Pesquisa..." type="search">
-            <button class="searchbtn" onclick="searchText()">Pesquisar</button>
 
+        
+            <div class="form">
+                <input type="text" name="barraDePesquisa" id="search-input" class="headerBarraDePesquisa" accesskey="p" placeholder="🔍Faça a sua Pesquisa..." type="search">
+                <button class="searchbtn" onclick="searchText()">Pesquisar</button>
+            </div>
+            
             <div name="usuario" id="usuario" class="usuario">
                 <h1 name="nomeUsuario" id="nomeusuario" class="headerNomeUsuario">
                     <?php
                         print $_SESSION["nome"];
                     ?>
                 </h1>
-                <hr class="linhaNomeUsuario">
+
                 <img draggable="false" name="imgUsuario" id="imgusuario" class="headerImgUsuario" src="img/perfil.png" alt="">
+
                 <?php
-                    print "<button class='btnSair'><a href='logout.php'>Sair</a></button>";
+                    print "<button accesskey='s' class='btnSair'><a href='logout.php'>Sair</a></button>";
                 ?>
-            </div>  
+            </div>
+
+            
         </div> 
-        
    </header>
 
 <!-----CONTEUDO----->
@@ -89,14 +95,63 @@
 <!--navegação-->
                 <nav name="navegacao" id="" class="navegacao">
                     <ul class="nav-list">
-                        <li id="nav"><a href="#" onmouseover="showModal()" onmouseout="hideModal()">Acessibilidade</a>
+                        <li id="nav"><a accesskey="a" href="#" onmouseover="showModal()" onmouseout="hideModal()">Acessibilidade</a>
                             <div id="modal" class="modal">
-                                <h2>Modal com JavaScript</h2>
-                                <p>Este é um exemplo de modal criado com JavaScript.</p>
+                                <div name="internoModel" class="internoModel">
+                                    <section name="infoAcessibilidade" class="infoAcessibilidade">
+                                        <div name="txtAcessibilidade" class="txtAcessibilidade">
+                                            <p>
+                                            Para aumentar ou diminuir a visualização do conteúdo, segure a tecla "ctrl" e pressione + ou - no seu teclado.
+                                            </p>
+                                        </div>
+                                        <hr class="divisaoInfoAcessibilidade">
+                                        <div name="txtcomoUsar" class="txtcomoUsar">
+                                            <h3>
+                                            Se preferir, use as teclas de atalho (acesskeys) para facilitar sua navegação:
+                                            </h3>
+                                            <br>
+                                            <p>
+                                            No Internet Explorer segure "ALT" mais a tecla desejada; Em outros navegadores, segure "ALT + SHIFT" e a tecla correspondente.
+                                            </p>
+                                        </div>
+                                    </section>
+                                    <hr class="divisaoAcessibilidade">
+                                    <section name="boxAtalhos" class="boxAtalhos">
+                                        <div name="linha1Acessibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">T</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">TOPO</p>
+                                        </div>
+                                        <div name="linha2Assecibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">S</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">SAIR</p>
+                                        </div>
+                                        <div name="linha3Assecibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">A</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">ACESSIBILIDADE</p>
+                                        </div>
+                                        <div name="linha4Assecibilidade" class="linhaAcessibilidade">
+                                            <div class="botaoAcessibilidade">ALT</div>
+                                            <p class="txtbotaoAcessibilidade">+</p>
+                                            <div class="botaoAcessibilidade">P</div>
+                                            <p class="txtbotaoAcessibilidade">=</p>
+                                            <p class="txtbotaoAcessibilidade">PESQUISAR</p>
+                                        </div>
+                                    </section>
+                                </div>
                             </div>
+
                         </li>
                         <hr>
-                        <li id="nav" class="pgatual"><a href="intranet.php" class="pg">Intranet</a></li>
+                        <li id="nav" class="pgatual"><a accesskey="t" href="intranet.php" class="pg">Intranet</a></li>
                         <hr>
                         <li id="nav"><a href="agendaTel_Int.php">Agenda Telefônica</a></li>
                         <hr>
@@ -119,7 +174,7 @@
                     </a>
 
                     <a draggable="false" href="https://www.unimedchapeco.coop.br/sistema">
-                        <div draggable="false" name="boxSistemaDeGestao" id="" class="boxSistemaDeGestao">
+                        <div accesskey="c" draggable="false" name="boxSistemaDeGestao" id="" class="boxSistemaDeGestao">
                             <img draggable="false" src="img/sistema_gestao.png" alt="">
                             <p>Sistema de Gestão</p>
                         </div>
@@ -154,8 +209,8 @@
                     </a>
                 </main>
 
-        <!--data--> 
-            <div name="data" class="data">
+<!--data--> 
+                <div name="data" class="data">
                 <p id="clock">
                     <?php
                         date_default_timezone_set('America/Sao_Paulo');
@@ -178,7 +233,7 @@
         </div>
         
         <div name="listaCompleta" id="" class="listaCompleta">
-            <a href="listacompleta.html">VER LISTA COMPLETA</a>
+            <a href="listacompleta.php">VER LISTA COMPLETA</a>
         </div>
     </div>
 

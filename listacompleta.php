@@ -11,7 +11,7 @@
 <body>
     <section name="aniversariantesHeader" id="" class="aniversariantesHeader">
         <div name="voltarIntranet" id="" class="voltarIntranet">
-            <a href="intranet.html"><img src="img/iconretornarintranet.png" alt="" class="imgVoltarIntranet"><p>Voltar ao Intranet</p></a>
+            <a href="intranet.php"><img src="img/iconretornarintranet.png" alt="" class="imgVoltarIntranet"><p>Voltar ao Intranet</p></a>
         </div>
     </section>
 <!-- =================================================================================================== -->
@@ -27,7 +27,7 @@
                 </div>
             <hr class="divisaoElementosAniversariantes">
                 <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-                    <p class="txtLista">Beltrano pereira silva pinto</p>
+                    <p class="txtLista">Beltrano</p>
                 </div>
             <hr class="divisaoElementosAniversariantes">
                 <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -43,7 +43,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -57,7 +57,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -71,7 +71,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -85,7 +85,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -99,7 +99,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -113,7 +113,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -127,7 +127,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -141,7 +141,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -155,38 +155,7 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
-    </div>
-<hr class="divisaoElementosAniversariantes">
-    <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
-        <p class="txtLista">Setor</p>
-    </div>
-</section>
-
-
-<section name="linhasAniversariantes" id="" class="linhasAniversariantes">
-    <div name="dataAnaiversario" id="" class="dataAnaiversario">
-        <p class="txtLista">10/07</p>
-    </div>
-<hr class="divisaoElementosAniversariantes">
-    <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
-    </div>
-<hr class="divisaoElementosAniversariantes">
-    <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
-        <p class="txtLista">Setor</p>
-    </div>
-</section>
-
-
-
-<section name="linhasAniversariantes" id="" class="linhasAniversariantes">
-    <div name="dataAnaiversario" id="" class="dataAnaiversario">
-        <p class="txtLista">10/07</p>
-    </div>
-<hr class="divisaoElementosAniversariantes">
-    <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -201,7 +170,38 @@
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
-        <p class="txtLista">Beltrano pereira silva pinto</p>
+        <p class="txtLista">Beltrano</p>
+    </div>
+<hr class="divisaoElementosAniversariantes">
+    <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
+        <p class="txtLista">Setor</p>
+    </div>
+</section>
+
+
+
+<section name="linhasAniversariantes" id="" class="linhasAniversariantes">
+    <div name="dataAnaiversario" id="" class="dataAnaiversario">
+        <p class="txtLista">10/07</p>
+    </div>
+<hr class="divisaoElementosAniversariantes">
+    <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
+        <p class="txtLista">Beltrano</p>
+    </div>
+<hr class="divisaoElementosAniversariantes">
+    <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
+        <p class="txtLista">Setor</p>
+    </div>
+</section>
+
+
+<section name="linhasAniversariantes" id="" class="linhasAniversariantes">
+    <div name="dataAnaiversario" id="" class="dataAnaiversario">
+        <p class="txtLista">10/07</p>
+    </div>
+<hr class="divisaoElementosAniversariantes">
+    <div name="infoNomeColaboradorAniversario" id="" class="infoNomeColaboradorAniversario">
+        <p class="txtLista">Beltrano</p>
     </div>
 <hr class="divisaoElementosAniversariantes">
     <div name="infoSetorColaboradorAniversario" id="" class="infoSetorColaboradorAniversario">
@@ -224,7 +224,7 @@
                     <img draggable="false" src="img/iconloc.png" alt="iconLoc">
                 </div>
                 <div name="txtLocalizacao" id="" class="txtLocalizacao">
-                <a rel="noopener" target="_blank" href="https://www.google.com/maps/dir//Estacionamento+UNIMED+-+Centro,+Chapec%C3%B3+-+SC,+89814-480/@-27.1038315,-52.6878714,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94e4b5c0993b2dc9:0x4c46fa0631db9e03!2m2!1d-52.6178311!2d-27.1038489?entry=ttu">
+                <a target="_blank" href="https://www.google.com/maps/dir//Estacionamento+UNIMED+-+Centro,+Chapec%C3%B3+-+SC,+89814-480/@-27.1038315,-52.6878714,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94e4b5c0993b2dc9:0x4c46fa0631db9e03!2m2!1d-52.6178311!2d-27.1038489?entry=ttu">
                     <P>Unimed Chapecó Av. Porto Alegre 243E</P>
                     <p>Chapecó - SC</p>
                     <p>CEP: 89802-130</p>
@@ -242,7 +242,7 @@
         </section>
         </div>
         <section name="copyright" class="copyright">
-            <a href="#" title="Política de utilização da rede" target="_new"><p name="politicaderede">Política de utilização da rede</p></a>
+            <a href="#" title="Política de utilização da rede" target="_new"><p name="politicaderede" style="font-weight: bold">Política de utilização da rede</p></a>
             <p>|</p>
             <p name="2023copyright">2023 Copyright - Todos os direitos reservados.</p>
         </section>
